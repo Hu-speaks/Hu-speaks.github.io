@@ -1,9 +1,10 @@
 ---
 layout: about
 title: about
-permalink: /
+permalink: /about/
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-
+nav: true
+nav_order: 1
 profile:
   align: right
   image: prof_pic.jpg
