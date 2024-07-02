@@ -8,7 +8,12 @@ middle_name:
 last_name: Hu
 email: 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  This is where Hu speaks. On topics regarding China.
+  This is where Hu speaks on topics related to China. 
+  I am aiming to inform the western audience how to think about China in the Chinese way. 
+  In this era when international tensions are high, The people, the normal people who does not work in governments, 
+  need to understand each other. But to understand China is to misunderstand China. Let's talk about my particular 
+  version of such a misunderstanding.
+ 
 footer_text:
 keywords: # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
