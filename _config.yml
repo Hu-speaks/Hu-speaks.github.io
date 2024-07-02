@@ -8,9 +8,8 @@ middle_name:
 last_name: Hu
 email: 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  This is where Hu speaks on topics related to China. 
-  I am aiming to inform the western audience how to think about China in the Chinese way. 
-  In this era when international tensions are high, The people, the normal people who does not work in governments, 
+  This is where Hu speaks on topics related to China.
+  In this era when international tensions are high, The people, the normal people who does not work in governments or media, 
   need to understand each other. But to understand China is to misunderstand China. Let's talk about my particular 
   version of such a misunderstanding.
  
@@ -134,7 +133,11 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Hu-speaks # blog_name will be displayed in your blog page
-blog_description: This is where Hu speaks. On topics related to China.
+blog_description:   
+  This is where Hu speaks on topics related to China.
+  #In this era when international tensions are high, The people, the normal people who does not work in governments or media, 
+  #need to understand each other. But to understand China is to misunderstand China. Let's talk about my particular 
+  #version of such a misunderstanding.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -295,7 +298,8 @@ jekyll-minifier:
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+  #enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+  enabled: [year, categories] # enables year, tag and category archives (remove if you need to disable one of them).
   layouts:
     year: archive-year
     tag: archive-tag
@@ -305,8 +309,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: #["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
+display_categories: #["external-services"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
